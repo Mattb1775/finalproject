@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+</head>
+<body>
+    <!-- <h2 id="welcome">Welcome!</h2> -->
+    <div id="icon">
+        <i id="myBtn" class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+        <h5 id="notif">0</h5>
+        <h5 class="cartText">View Cart</h5>
+    </div>
+    <h1 class="intro">Matt's Woodwork Shop</h1>
+  
+    <!-- Trigger/Open The Modal -->
+    <!-- <button id="myBtn">Open Modal</button> -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Item Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantity</h3>
+        <p id="summary">No items in your cart.</p>
+        <h3 id="total"></h3>
+        <button onClick="addToCart()" class="modal-button1">Add Item</button>
+        <button onClick="removeFromCart()" class="modal-button2">Remove Item</button>
+        <div id="count"></div>
+    </div>
+    
+    </div>
+   
+    <div id="Window">
+       
+
+        <div id="container">
+            <img class="innerImage" src="./Images/IMG_3121.JPG" alt="Wood Breakfast Tray"> 
+        </div>
+        <div id="price-box"> 
+            <h2>100% Solid Wood Breakfast Tray <br><br>Handmade from select pieces of Ash, Walnut, Yellow Heart and Bocote woods</h2>
+            <br>
+            <h1 class="price">Today's Price!<br>$79.99</h1>
+            <button class="add-to-cart" onClick="addToCart()">Add to cart</button>
+        </div>
+        <div id="reviewsWindow">
+            <h1>Reviews</h1>
+            
+            <div id="review1">
+                <p>John S wrote:</p>
+                    <p ><strong>Quality Products</strong></p>
+                    <p>Matt's Woodwork Shop provides the highest quality products! I have never been disappointed!!!</p>
+            </div> 
+            <div id="review2"> 
+                <p>Rick Astley wrote:</p>
+                    <p ><strong>Always top quality!</strong></p>
+                    <p>His projects never let me down! I always know that I'll recieve the highest quality products! He also gets the work done fast!</p>
+            </div>  
+            
+        </div>
+       
+        <!-- <button class="add-to-cart" onClick="showCart()">Show Cart</button>   -->
+    </div>
+
+</body>
+<script src="./javascript.js"></script>
+</html>

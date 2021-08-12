@@ -1,0 +1,198 @@
+#Window {
+    border: rgba(0, 0, 0, 0) solid 1px;
+    display: block; 
+    text-align: center;
+    height: 1000px;
+    width: 2090px;
+}
+
+h1 {
+    text-align: center;
+   
+}
+.intro {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#summary {
+    position:absolute;
+}
+#total {
+    margin-top: 410px;
+    position: absolute;
+}
+/* Section for Reviews */
+#reviewsWindow {
+    height: 300px;
+    width: 2090px;
+    border: rgba(0, 0, 0, 0) solid 1px;
+    margin-top: 550px;
+    text-align: left;
+}
+/* This container holds the image */
+#container {
+    border: inset 5px black; 
+    height: 500px;
+    width: 650px;
+    margin-left: 300px;
+    position: absolute;
+}
+.innerImage {
+    display: flex;
+    height: 500px;
+    width: 650px;
+}
+/* Contains price-box and Add to cart button */
+#price-box {
+    margin-left: 950px;
+    border: inset 5px black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+}
+.price {
+    font-size: 50px;
+    font-style: normal;
+}
+
+.add-to-cart {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    transition-duration: 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: lightskyblue;
+}
+
+.modal-button1 {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 400px;
+    margin-left: 300px;
+    height: 50px;
+    width: 15%;
+    transition-duration: 0.3s;
+    position: absolute;
+}
+
+.modal-button1:hover {
+    background-color: lightskyblue;
+}
+
+.modal-button2 {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 400px;
+    margin-left: 400px;
+    height: 50px;
+    width: 15%;
+    transition-duration: 0.3s;
+    position: absolute;
+}
+
+.modal-button2:hover {
+    background-color: lightskyblue;
+}
+
+/* #welcome {
+    background-color: lightskyblue;
+    margin-left: -2650px;
+    animation: greeting 10s;
+    position: absolute;
+}  */
+
+@keyframes greeting {
+    0% { transform: translateX(0px); }
+    100% { transform: translateX(2300px); }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; 
+    z-index: 1; /* Sit on top */
+    /* padding-top: 100px; Location of the box */
+    left: 0;
+    top: 0;
+    width: 25%; /* Full width */
+    height: 65%; /* Full height */
+    /* overflow: auto; Enable scroll if needed */
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+    margin-left: 1575px;
+    
+}
+  
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    /* margin: auto; */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 95%;
+    height: 80%;
+    position: absolute;
+    
+}
+
+/* #myModal {
+    width: 500px;
+    height: 700px;
+} */
+  
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#icon {
+margin-left: 2000px;
+position: absolute;
+
+}
+
+.cartText {
+    position: absolute;
+    width: 200%;
+    /* background-color: red; */
+    margin-top: 0px;
+}
+
+#review1 {
+    border:  1px solid black;
+}
+
+#review2 {
+    border:  1px solid black;
+}
+
+#notif {
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 23px;
+}
